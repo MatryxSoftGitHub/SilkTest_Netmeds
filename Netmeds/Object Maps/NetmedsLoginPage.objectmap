@@ -1,0 +1,19 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="NetmedsLoginPage" locator="//BrowserApplication" urlPattern="*netmeds.com*">
+    <ObjectMapEntry id="BrowserWindow" locator="//BrowserWindow">
+      <ObjectMapEntry id="ADD TO CART" locator="//DIV[@class=&apos;white-bg&apos;]/DIV[@class=&apos;drug_list&apos;]/DIV[@class=&apos;links&apos;]//DIV[@class=&apos;cart_btn&apos;]//SPAN[@textContents=&apos;ADD TO CART&apos;]"/>
+      <ObjectMapEntry id="btn_SignIn" locator="//BUTTON[@textContents=&apos;Sign in&apos;]"/>
+      <ObjectMapEntry id="btn_UsePassword" locator="//BUTTON[@textContents=&apos;USE PASSWORD&apos;]"/>
+      <ObjectMapEntry id="lnk_SignInSignUp" locator="//A[@textContents=&apos;Sign in / Sign up&apos;]"/>
+      <ObjectMapEntry id="txt_City" locator="//INPUT[@id=&apos;city&apos;]"/>
+      <ObjectMapEntry id="txt_Landmark" locator="//INPUT[@id=&apos;landmark&apos;]"/>
+      <ObjectMapEntry id="txt_MobileNumber" locator="//INPUT[@id=&apos;loginfirst_mobileno&apos;]"/>
+      <ObjectMapEntry id="txt_Password" locator="//INPUT[@id=&apos;login_received_pwd&apos;]"/>
+      <ObjectMapEntry id="txt_PinCode" locator="//INPUT[@id=&apos;pin&apos;]"/>
+      <ObjectMapEntry id="txt_Search" locator="//INPUT[@id=&apos;search&apos;]"/>
+      <ObjectMapEntry id="txt_State" locator="//INPUT[@id=&apos;state&apos;]"/>
+      <ObjectMapEntry id="txt_Street" locator="//INPUT[@id=&apos;street&apos;]"/>
+      <ObjectMapEntry id="webklipper-publisher" locator="//IFRAME[@id=&apos;webklipper-publisher*&apos;]"/>
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>

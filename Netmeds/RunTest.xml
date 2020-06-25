@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Netmeds" default="runTests">
+
+<property environment="env" />
+<property name="output.dir" value="result" />
+
+<target name="runTests" depends="cleanResults">
+<junit printsummary="true" showoutput="true">
+<formatter type="xml" />
+<formatter type="plain" usefile="false" />
+
+<classpath>
+<pathelement path="E:\Silk_Git\Netmeds\Netmeds.jar"/>
+<pathelement path="${env.OPEN_AGENT_HOME}\JTF\silktest-jtf-nodeps.jar"/>
+<pathelement path="E:\Silk_Git\Netmeds\buildlib\junit.jar"/>
+<pathelement path="E:\Silk_Git\Netmeds\buildlib\org.hamcrest.core_1.3.0.v20180420-1519.jar"/>	
+	
+</classpath>
+
+<test name="NetmedsTestcase.Netmeds" todir="${output.dir}" />
+</junit>
+</target>
+
+<target name="cleanResults">
+<delete dir="${output.dir}" failonerror="false" />
+<mkdir dir="${output.dir}" />
+</target>
+</project>

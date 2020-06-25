@@ -1,0 +1,7 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="UserAccountPage" locator="//BrowserApplication" urlPattern="*netmeds.com*">
+    <ObjectMapEntry id="BrowserWindow" locator="//BrowserWindow">
+      <ObjectMapEntry id="btn_Logout" locator="//A[@textContents='Logout']" />
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>

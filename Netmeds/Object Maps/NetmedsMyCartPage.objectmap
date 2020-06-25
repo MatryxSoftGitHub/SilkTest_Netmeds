@@ -1,0 +1,16 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="NetmedsMyCartPage" locator="//BrowserApplication" urlPattern="*netmeds.com*">
+    <ObjectMapEntry id="BrowserWindow" locator="//BrowserWindow">
+      <ObjectMapEntry id="btn_Proceed" locator="//BUTTON[@textContents='Proceed']" />
+      <ObjectMapEntry id="btn_Save Address" locator="//BUTTON[@textContents='Save Address']" />
+      <ObjectMapEntry id="lbl_Change" locator="//A[@textContents='Change']" />
+      <ObjectMapEntry id="lnk_AddNewAddress" locator="//A[@textContents='+ ADD NEW ADDRESS']" />
+      <ObjectMapEntry id="lnk_AddressFormModal" locator="//DIV[@id='addressformmodal']" />
+      <ObjectMapEntry id="txt_City" locator="//INPUT[@id='city']" />
+      <ObjectMapEntry id="txt_Landmark" locator="//INPUT[@id='landmark']" />
+      <ObjectMapEntry id="txt_PinCode" locator="//INPUT[@id='pin']" />
+      <ObjectMapEntry id="txt_State" locator="//INPUT[@id='state']" />
+      <ObjectMapEntry id="txt_Street" locator="//INPUT[@id='street']" />
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>

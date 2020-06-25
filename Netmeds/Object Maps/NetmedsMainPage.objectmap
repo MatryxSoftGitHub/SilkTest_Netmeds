@@ -1,0 +1,12 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="NetmedsMainPage" locator="//BrowserApplication" urlPattern="*netmeds.com*">
+    <ObjectMapEntry id="BrowserWindow" locator="//BrowserWindow">
+      <ObjectMapEntry id="btn_AddToCart" locator="//BUTTON[@class='toCart cartbag']" />
+      <ObjectMapEntry id="img_NetmedsLogo" locator="//IMG[@alt='Netmeds.com, India k*']" />
+      <ObjectMapEntry id="loggedUser" locator="//A[@id='logged_user']" />
+      <ObjectMapEntry id="MyCart" locator="//SPAN[@textContents='?']" />
+      <ObjectMapEntry id="SearchIcon" locator="//BUTTON[@class='iconSearch']" />
+      <ObjectMapEntry id="txt_Search" locator="//INPUT[@id='search']" />
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>
